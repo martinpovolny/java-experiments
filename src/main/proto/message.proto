@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MyMessage {
+  string content = 1;
+}
+
+option java_package = "org.learn";
